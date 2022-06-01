@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Bora</string>
+    <string name="bem_vindo">Bem vindo!</string>
+    <string name="criar_conta">Criar Contar</string>
+    <string name="recuperar_minha_senha">Recuperar minha senha</string>
+    <string name="hint">Email</string>
+    <string name="hint_senha">Senha</string>
 </resources>
