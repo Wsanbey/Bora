@@ -1,8 +1,7 @@
 # Bora
 Iniciando o projeto
- 
 
-![Tela inicial](https://user-images.githubusercontent.com/61056410/171695350-e14c1050-8191-4955-ad81-2fcafee6679b.jpg)
-![Tela de login](https://user-images.githubusercontent.com/61056410/171695348-bd369e0b-29ab-4aca-b66a-ee90d166f9ef.jpg)
-![Tela de cadastro](https://user-images.githubusercontent.com/61056410/171695341-35474862-fa47-41ca-8b8f-b86db3f0fa72.jpg)
 
+![Tela inicial](https://user-images.githubusercontent.com/61056410/171697194-f514c0cf-c6af-4d99-aaaf-ed82638d6157.png)
+![Tela de login](https://user-images.githubusercontent.com/61056410/171697192-ac2ae463-32cc-4790-9913-a8c9aeb07877.png)
+![Tela de cadastro](https://user-images.githubusercontent.com/61056410/171697185-9a1cad41-b75d-4f45-b952-6254f2e2ba9e.png)
