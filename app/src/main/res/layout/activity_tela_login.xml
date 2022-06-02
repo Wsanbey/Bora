@@ -52,34 +52,16 @@
 
         <EditText
             android:id="@+id/editTextTextEmailAddress"
-            android:layout_width="327dp"
-            android:layout_height="54dp"
-            android:layout_marginTop="10dp"
-            android:ems="10"
-            android:hint="@string/hint"
-            android:textColorHint="@color/letra_zinza_claro"
-            android:inputType="textEmailAddress"
-            android:background="@color/zinza_claro"
-            android:maxLength="25"
-            android:paddingLeft="20dp"
-            android:textColor="@color/black"
-            android:fontFamily="@font/poppins_regular"
-            />
+            style="@style/input_entrada"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"/>
 
         <EditText
             android:id="@+id/editTextTextPassword"
-            android:layout_width="327dp"
-            android:layout_height="54dp"
-            android:textColorHint="@color/letra_zinza_claro"
-            android:textColor="@color/black"
-            android:fontFamily="@font/poppins_regular"
-            android:background="@color/zinza_claro"
+            style="@style/input_entrada"
             android:layout_marginTop="20dp"
-            android:ems="1"
-            android:hint="@string/hint_senha"
-            android:inputType="textPassword"
-            android:paddingLeft="20dp"
-            />
+            android:hint="@string/senha"
+            android:inputType="textPassword"/>
 
         <TextView
             android:id="@+id/textView2"
@@ -91,20 +73,19 @@
             android:textAlignment="textEnd"
             android:textColor="@color/gray" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="39dp"
-            android:text="Button" />
+            style="@style/Bt_grande_start"
+            android:layout_marginTop="19dp"
+            android:text="@string/login"/>
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/button2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/Bt_grande_branco"
             android:layout_marginTop="20dp"
             android:onClick="gotoTelaCadastro"
-            android:text="Button" />
+            android:text="@string/bt_criar_conta"/>
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

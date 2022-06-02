@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="input_entrada">
+        <item name="android:layout_width">327dp</item>
+        <item name="android:layout_height">54dp</item>
+        <item name="android:paddingLeft">24dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/letra_zinza_claro</item>
+        <item name="android:background">@drawable/cx_entradas</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textAllCaps">false</item>
+
+    </style>
+
+    <style name="input_entrada_senha">
+        <item name="android:layout_width">327dp</item>
+        <item name="android:layout_height">54dp</item>
+        <item name="android:paddingLeft">24dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/letra_zinza_claro</item>
+        <item name="android:background">@drawable/cx_entradas</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textAllCaps">false</item>
+
+    </style>
+
+    <style name="testInputLayout">
+        <item name="android:background">@drawable/entrada_icone</item>
+        <item name="android:layout_width">327dp</item>
+        <item name="android:layout_height">54dp</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/letra_zinza_claro</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textAllCaps">false</item>
+
+    </style>
+
+    <style name="Bt_grande_start">
+        <item name="android:background">@drawable/bt_grande_azul</item>
+        <item name="android:layout_width">327dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAllCaps">false</item>
+
+    </style>
+
+    <style name="Bt_grande_branco">
+        <item name="android:background">@drawable/bt_grande_branco</item>
+        <item name="android:layout_width">327dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:textColor">@color/bt_azul_escuro</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textAllCaps">false</item>
+
+    </style>
+
+</resources>
