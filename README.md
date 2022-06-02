@@ -1,6 +1,9 @@
 # Bora
 Iniciando o projeto
 
+Não queria colocar todas as telas porque o programa ainda não esta rodando mas
+pra quem quiser ajudar na ideia ta ai a visão do que deve ser o sistema!
+
 
 ![Tela inicial](https://user-images.githubusercontent.com/61056410/171697194-f514c0cf-c6af-4d99-aaaf-ed82638d6157.png)
 ![Tela de login](https://user-images.githubusercontent.com/61056410/171697192-ac2ae463-32cc-4790-9913-a8c9aeb07877.png)
