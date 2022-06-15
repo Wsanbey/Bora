@@ -51,22 +51,27 @@
         app:layout_constraintTop_toBottomOf="@+id/textView">
 
 
-        <EditText
-            android:id="@+id/editTextTextEmailAddress"
+        <com.santalu.maskara.widget.MaskEditText
+            android:id="@+id/telefone"
             style="@style/input_entrada"
+            android:drawableStart="@drawable/brasiltesti"
+            android:drawablePadding="12dp"
+            android:inputType="number"
+            android:text="+55  "
+            app:mask="+55 (__) _ ____ - ____"
+            app:maskCharacter="_"
+            app:maskStyle="completable" />
+
+        <EditText
+            android:id="@+id/email"
+            style="@style/input_entrada_senha"
             android:hint="@string/email"
             android:inputType="textEmailAddress" />
 
         <EditText
-            android:id="@+id/senha"
-            style="@style/input_entrada_senha"
-            android:hint="@string/senha"
-            android:inputType="textPassword" />
-
-        <EditText
             android:id="@+id/senhaRepiter"
             style="@style/input_entrada_senha"
-            android:hint="@string/repita_a_senha"
+            android:hint="@string/senha"
             android:inputType="textPassword" />
 
         <androidx.appcompat.widget.AppCompatButton
