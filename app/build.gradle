@@ -42,4 +42,7 @@ dependencies {
 
     // Maskara --> https://github.com/santalu/maskara
     implementation 'com.github.santalu:maskara:1.0.0'
+
+    // Para inserir gif --> https://github.com/koral--/android-gif-drawable
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.24'
 }

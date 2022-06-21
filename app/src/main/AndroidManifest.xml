@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Bora">
         <activity
+            android:name=".AposSelecaoDaViagem"
+            android:exported="false" />
+        <activity
+            android:name=".ModoPegarOuDarCarona"
+            android:exported="false" />
+        <activity
+            android:name=".TelaInicial"
+            android:exported="false" />
+        <activity
             android:name=".TelaCadastro"
             android:exported="true" />
         <activity

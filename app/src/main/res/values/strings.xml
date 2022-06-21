@@ -8,5 +8,10 @@
     <string name="login">Login</string>
     <string name="bt_criar_conta">Criar conta</string>
     <string name="repita_a_senha">Repita a senha</string>
+    <string name="sua_localizacao">Sua localização</string>
+    <string name="fazer_busca">Fazer busca</string>
+    <string name="pr_ximo">Próximo</string>
+    <string name="aceitar">Aceitar</string>
+    <string name="cancelar">canselar</string>
 
 </resources>

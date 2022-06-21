@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/imagem_mapa"
+    tools:context=".TelaInicial">
+
+
+    <ScrollView
+        android:id="@+id/scrowView"
+        style="@style/bordas_superiores"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:circularflow_defaultRadius="@dimen/cardview_default_radius"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+
+            android:id="@+id/linearLayout3"
+            style="@style/bordas_superiores"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                style="@style/texto_24_bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Qual é o seu destino?"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextTextSuaLocalizacao"
+                style="@style/input_entrada"
+
+                android:drawableStart="@drawable/ic_localizacao_sem_cor"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="@string/sua_localizacao"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName2"
+                style="@style/input_entrada"
+                android:drawableStart="@drawable/ic_usuario_sem_cor"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="Qual é o seu destino?"
+                android:inputType="textPersonName" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btFazerBusca"
+                style="@style/Bt_grande_start"
+                android:layout_marginBottom="15dp"
+                android:onClick="modoPegarOuDarCarona"
+                android:text="@string/fazer_busca" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

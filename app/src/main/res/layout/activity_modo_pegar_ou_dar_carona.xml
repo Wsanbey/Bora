@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/map_com_rota"
+    android:scrollbarAlwaysDrawHorizontalTrack="false"
+    android:scrollbarAlwaysDrawVerticalTrack="false"
+    tools:context=".ModoPegarOuDarCarona">
+
+    <ScrollView
+        android:id="@+id/scrowView"
+        style="@style/bordas_superiores"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:circularflow_defaultRadius="@dimen/cardview_default_radius"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                style="@style/texto_24_bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bora de?"
+                android:textAlignment="center" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    style="@style/St_Cards_Medios"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/bordas_curvadas_fundo_zinza"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="76dp"
+                        android:layout_height="18dp"
+                        android:background="@drawable/fundo_label_verde"
+                        android:text="Passageiro"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins"
+                        android:text="Pegar carona"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="16dp" />
+
+                    <pl.droidsonroids.gif.GifImageView
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/avatar_test" />
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="Média / 8min"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/ic_usuario_sem_cor_micro"
+                        android:drawablePadding="5dp"
+                        android:text="35 Passageiros"
+                        android:textAlignment="center"
+                        android:textColor="@color/letra_zinza_claro"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/St_Cards_Medios"
+                    android:background="@drawable/bordas_curvadas_fundo_zinza"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="76dp"
+                        android:layout_height="18dp"
+                        android:background="@drawable/fundo_label_amarelo"
+                        android:text="Motorista"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins"
+                        android:text="Dar Carona"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="16dp" />
+
+                    <pl.droidsonroids.gif.GifImageView
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/avatar_test" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="Média / 45min"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/ic_usuario_sem_cor_micro"
+                        android:drawablePadding="5dp"
+                        android:text="5 Motoristas"
+                        android:textAlignment="center"
+                        android:textColor="@color/letra_zinza_claro"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/editTextTextPersonName2"
+                style="@style/input_entrada"
+                android:drawableLeft="@drawable/bandeira_de_cartao"
+                android:drawableRight="@drawable/ic_seta_direcao_sem_cor"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="Colabora"
+                android:inputType="textPersonName"
+                android:textAlignment="textStart" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btFazerBusca"
+                style="@style/Bt_grande_start"
+                android:layout_marginBottom="15dp"
+                android:onClick="confirmado"
+                android:text="@string/pr_ximo" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/voltar_pra_esquerda"
+        app:layout_constraintBottom_toTopOf="@+id/scrowView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.002"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.008" />
+</androidx.constraintlayout.widget.ConstraintLayout>

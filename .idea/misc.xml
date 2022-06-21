@@ -4,16 +4,24 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Well/AndroidStudioProjects/Bora/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2105" />
+        <entry key="..\:/Users/Well/AndroidStudioProjects/Bora/app/src/main/res/drawable/bordas_curvadas_fundo_zinza.xml" value="0.2115" />
+        <entry key="..\:/Users/Well/AndroidStudioProjects/Bora/app/src/main/res/drawable/bt_canselar_vermeho.xml" value="0.202" />
         <entry key="..\:/Users/Well/AndroidStudioProjects/Bora/app/src/main/res/drawable/bt_grande_azul.xml" value="0.2203125" />
         <entry key="..\:/Users/Well/AndroidStudioProjects/Bora/app/src/main/res/drawable/bt_grande_branco.xml" value="0.211" />
+        <entry key="..\:/Users/Well/AndroidStudioProjects/Bora/app/src/main/res/drawable/cx_entradas.xml" value="0.171" />
         <entry key="..\:/Users/Well/AndroidStudioProjects/Bora/app/src/main/res/drawable/entrada_icone.xml" value="0.211" />
+        <entry key="..\:/Users/Well/AndroidStudioProjects/Bora/app/src/main/res/drawable/fundo_label_laranja.xml" value="0.1845" />
+        <entry key="..\:/Users/Well/AndroidStudioProjects/Bora/app/src/main/res/drawable/fundo_label_verde.xml" value="0.1815" />
+        <entry key="..\:/Users/Well/AndroidStudioProjects/Bora/app/src/main/res/drawable/shape_bordas_superiores.xml" value="0.171" />
         <entry key="..\:/Users/Well/AndroidStudioProjects/Bora/app/src/main/res/drawable/shape_das_pesquisas.xml" value="0.2105" />
         <entry key="..\:/Users/Well/AndroidStudioProjects/Bora/app/src/main/res/drawable/side_nav_bar.xml" value="0.2203125" />
+        <entry key="..\:/Users/Well/AndroidStudioProjects/Bora/app/src/main/res/layout/activity_apos_selecao_da_viagem.xml" value="0.33" />
         <entry key="..\:/Users/Well/AndroidStudioProjects/Bora/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Well/AndroidStudioProjects/Bora/app/src/main/res/layout/activity_menu_lateral.xml" value="0.33" />
-        <entry key="..\:/Users/Well/AndroidStudioProjects/Bora/app/src/main/res/layout/activity_tela_cadastro.xml" value="0.33" />
-        <entry key="..\:/Users/Well/AndroidStudioProjects/Bora/app/src/main/res/layout/activity_tela_inicial.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/Well/AndroidStudioProjects/Bora/app/src/main/res/layout/activity_tela_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Well/AndroidStudioProjects/Bora/app/src/main/res/layout/activity_modo_pegar_ou_dar_carona.xml" value="0.33" />
+        <entry key="..\:/Users/Well/AndroidStudioProjects/Bora/app/src/main/res/layout/activity_tela_cadastro.xml" value="0.22" />
+        <entry key="..\:/Users/Well/AndroidStudioProjects/Bora/app/src/main/res/layout/activity_tela_inicial.xml" value="0.22" />
+        <entry key="..\:/Users/Well/AndroidStudioProjects/Bora/app/src/main/res/layout/activity_tela_login.xml" value="0.25" />
         <entry key="..\:/Users/Well/AndroidStudioProjects/Bora/app/src/main/res/layout/app_bar_menu_lateral.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Well/AndroidStudioProjects/Bora/app/src/main/res/layout/content_menu_lateral.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Well/AndroidStudioProjects/Bora/app/src/main/res/layout/fragment_gallery.xml" value="0.20416666666666666" />
@@ -29,5 +37,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.22" />
+      </ProjectState>
+    </option>
   </component>
 </project>

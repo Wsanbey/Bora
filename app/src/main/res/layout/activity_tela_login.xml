@@ -77,7 +77,8 @@
             android:id="@+id/button"
             style="@style/Bt_grande_start"
             android:layout_marginTop="19dp"
-            android:text="@string/login"/>
+            android:onClick="gotoTelaInicial"
+            android:text="@string/login" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/button2"
