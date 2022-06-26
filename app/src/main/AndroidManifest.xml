@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="br.edu.ufpe.recife.tads.bora">
+    package="br.edu.ufpe.recife.tads.bora" >
 
     <application
         android:allowBackup="true"
@@ -8,9 +8,25 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Bora">
+        android:theme="@style/Theme.Bora" >
         <activity
-            android:name=".AposSelecaoDaViagem"
+            android:name=".Lista_Motorista"
+            android:exported="false" />
+        <activity
+            android:name=".Lista_Passageiros"
+            android:exported="false" />
+        <activity
+            android:name=".Recibo"
+            android:exported="false" />
+        <activity
+            android:name=".ui.login.ReciboViagem"
+            android:exported="false"
+            android:label="@string/title_activity_recibo_viagem" />
+        <activity
+            android:name=".DadosMotorista"
+            android:exported="false" />
+        <activity
+            android:name=".DadosPassageiro"
             android:exported="false" />
         <activity
             android:name=".ModoPegarOuDarCarona"
@@ -27,7 +43,7 @@
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

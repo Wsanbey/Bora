@@ -60,7 +60,7 @@
                 android:id="@+id/btFazerBusca"
                 style="@style/Bt_grande_start"
                 android:layout_marginBottom="15dp"
-                android:onClick="modoPegarOuDarCarona"
+                android:onClick="selecionarMDViagem"
                 android:text="@string/fazer_busca" />
 
 

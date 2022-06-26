@@ -13,5 +13,56 @@
     <string name="pr_ximo">Próximo</string>
     <string name="aceitar">Aceitar</string>
     <string name="cancelar">canselar</string>
+    <string name="title_activity_recibo_viagem">ReciboViagem</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <string-array name="lista_nome_motoristas">
+        <item>Iara Tole</item>
+        <item>Jonatã</item>
+        <item>Sandra</item>
+        <item>Kayden</item>
+        <item>Stella</item>
+        <item>Mohammed</item>
+        <item>Natália</item>
+        <item>Liedson</item>
+    </string-array>
+
+    <string-array name="lista_nome_passageiros">
+        <item>Valdemar</item>
+        <item>Tamára</item>
+        <item>Madalena</item>
+        <item>Fernão</item>
+        <item>Valentin</item>
+        <item>Lilian</item>
+        <item>Abdoulaye</item>
+        <item>Davy</item>
+    </string-array>
+
+    <string-array name="lista_nome_horarios">
+        <item>22:00 pm</item>
+        <item>16:30 pm</item>
+        <item>22:00 pm</item>
+        <item>10:00 am</item>
+        <item>23:30 pm</item>
+        <item>14:00 am</item>
+        <item>05:00 am</item>
+    </string-array>
+
+    <string-array name="lista_nome_avaliacao">
+        <item>5.0</item>
+        <item>3.2</item>
+        <item>4.2</item>
+        <item>4.1</item>
+        <item>4.8</item>
+        <item>2.1</item>
+        <item>3.0</item>
+    </string-array>
 
 </resources>

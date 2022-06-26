@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AposSelecaoDaViagem"
+    tools:context=".DadosPassageiro"
     android:background="@drawable/map_com_rota"
     >
 
@@ -117,8 +117,8 @@
 
                     <LinearLayout
                         android:id="@+id/linearLayout2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="0dp"
+                        android:layout_height="48dp"
                         android:layout_marginStart="18dp"
                         android:orientation="vertical"
                         app:layout_constraintStart_toEndOf="@+id/gifImageView"
@@ -129,7 +129,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/poppins"
-                            android:text="BMW X5"
+                            android:text="Pittro"
                             android:textColor="@color/black"
                             android:textSize="18dp" />
 
@@ -137,7 +137,7 @@
                             android:id="@+id/textView13"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="WB9008U"
+                            android:text="Client Vip"
                             android:textAlignment="center"
                             android:textColor="@color/letra_zinza_claro"
                             android:textSize="14dp" />
@@ -150,7 +150,7 @@
                         android:layout_height="70dp"
                         android:layout_marginStart="24dp"
                         android:layout_marginTop="24dp"
-                        android:src="@drawable/avatar_test"
+                        android:src="@drawable/avatar_boneco_principal"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
 
@@ -242,6 +242,7 @@
             style="@style/Bt_medio_vermelho"
             android:layout_marginEnd="40dp"
             android:layout_marginBottom="35dp"
+            android:onClick="voltarPegarOuDarCarona"
             android:text="@string/cancelar"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
@@ -252,6 +253,7 @@
             android:layout_marginStart="40dp"
             android:layout_marginEnd="32dp"
             android:layout_marginBottom="35dp"
+            android:onClick="recibo"
             android:text="@string/aceitar"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/Bt_medio_vermelho"

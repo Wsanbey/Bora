@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import java.util.Timer;
 import java.util.TimerTask;
@@ -35,6 +36,12 @@ public class MainActivity extends AppCompatActivity {
 
     private void gotoTelaLogin() {
         Intent intent = new Intent(getApplicationContext(), TelaLogin.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        startActivity(intent);
+    }
+
+    private void irTelaInicial(View view) {
+        Intent intent = new Intent(getApplicationContext(), TelaInicial.class);
         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(intent);
     }
